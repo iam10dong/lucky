@@ -1,24 +1,30 @@
+<!DOCTYPE html>
+    <html>
 
-<div style="text-align:center; margin-top:5%">
+        <body style="background-color:black">
     
-<%= image_tag "sans.jpg" %>    
+    
+    <div style="text-align:center; margin-top:5%">
+    
+        <%= image_tag "sans.jpg" %>    
 
-</div>
+    </div>
 
 
-<div style="text-align:center">
-    <h1>I Feel Lucky!</h1>
-    <h2><a href="javascript:location.reload()">HERE WE GO!</a></h2>
+    <div style="text-align:center;">
+    
+        <h1><a href="javascript:location.reload()">I Feel Lucky Today!</a></h1>
+    </div>
 
-    <div style="font-size:30px;">
-       <h1 style="color:skyblue;"><%= @ball_1 %>
+    <div style="font-size:30px;text-align:center;">
+       <h1 style="color:white;"><%= @ball_1 %>
        <%= @ball_2 %>
         <%= @ball_3 %>
         <%= @ball_4 %>
         <%= @ball_5 %>
         <%= @ball_6 %></h2>
     </div>
-</div>
+
 
 
     
@@ -27,3 +33,7 @@
 <embed src="megalovania.mp3" autostart="true" loop="true" hidden="true"><embed>
 
 </div>
+
+</body>
+
+</html>
